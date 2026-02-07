@@ -1,10 +1,9 @@
-B-Cell Epitope Prediction for Chagas Disease
+B-CELL EPITOPE PREDICTION FOR CHAGAS DISEASE
 
-Project Overview
-
+PROJECT OVERVIEW
 This project develops a machine learning pipeline to predict Linear B-cell epitopes for Trypanosoma cruzi, the protozoan parasite responsible for Chagas disease. Identifying B-cell epitopes is crucial for vaccine development, disease diagnosis, and prevention. This work demonstrates handling of severely imbalanced datasets, high-dimensional feature spaces, and the application of advanced ensemble methods.
 
-The Challenge
+THE CHALLENGE
 
 The dataset presented several significant challenges:
 
@@ -16,8 +15,7 @@ Group structure: Peptides sharing biological context requiring careful data spli
 
 Non-linear separability: Minority class deeply embedded within majority class distribution
 
-Methodology
-
+METHODOLOGY
 Exploratory Data Analysis
 
 Initial investigation revealed continuous float features with varying distributions and skewness, suggesting tree-based models would be most appropriate. Correlation analysis showed clusters of highly correlated features, indicating the need for potential dimensionality reduction strategies.
@@ -76,8 +74,7 @@ Deep Learning Enhancement
 
 Recognizing that the balanced accuracy could be improved, I developed a Deep Neural Network (DNN) model as an alternative approach. The DNN architecture was specifically designed to handle the class imbalance and high-dimensional feature space, achieving a significantly improved accuracy of 91.41% compared to the XGBoost with Balanced Bagging (65%).
 
-Key Findings
-
+KEY FINDINGS
 Group-aware splitting is essential for preventing inflated metrics when samples share biological context
 
 Ensemble methods excel at uncovering subtle signals in high-dimensional protein embeddings
@@ -86,8 +83,7 @@ Balanced Bagging with XGBoost remarkably outperformed single classifiers and sta
 
 Deep learning approaches can further improve performance on severely imbalanced biological datasets when properly tuned
 
-Technologies Used
-
+TECHNOLOGIES USED
 Python: Core programming language
 
 Scikit-learn: Machine learning algorithms, preprocessing, and evaluation
@@ -102,8 +98,7 @@ Matplotlib & Seaborn: Data visualization
 
 Imbalanced-learn: Resampling techniques (SMOTE, ADASYN, etc.)
 
-Business Impact
-
+BUSINESS IMPACT
 This work demonstrates practical approaches to real-world biomedical challenges where:
 
 Class imbalance is severe and unavoidable
