@@ -1,6 +1,7 @@
 B-CELL EPITOPE PREDICTION FOR CHAGAS DISEASE
 
 PROJECT OVERVIEW
+
 This project develops a machine learning pipeline to predict Linear B-cell epitopes for Trypanosoma cruzi, the protozoan parasite responsible for Chagas disease. Identifying B-cell epitopes is crucial for vaccine development, disease diagnosis, and prevention. This work demonstrates handling of severely imbalanced datasets, high-dimensional feature spaces, and the application of advanced ensemble methods.
 
 THE CHALLENGE
